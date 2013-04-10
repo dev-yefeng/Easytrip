@@ -20,12 +20,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+#if PRODUCT_TESTING
+    
+    UIDevice *device = [UIDevice currentDevice];
+    if ([device respondsToSelector:@selector(uniqueIdentifier)]) {
+        [TestFlight setDeviceIdentifier:[device performSelector:@selector(uniqueIdentifier)]];
+    }
+    else if([device respondsToSelector:@selector(identifierForVendor)]) {
+        NSUUID *uuid = [device performSelector:@selector(identifierForVendor)];
+        [TestFlight setDeviceIdentifier:[uuid UUIDString]];
+    }
+    else {
+        [TestFlight setDeviceIdentifier:[[[[NSBundle mainBundle] bundlePath] stringByDeletingLastPathComponent] lastPathComponent]];
+    }
+    
+#endif
     [TestFlight takeOff:kAppToken_TestFlight];
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [TestFlight openFeedbackView];
+    
     return YES;
 }
 

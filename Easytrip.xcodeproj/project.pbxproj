@@ -21,6 +21,7 @@
 		7376E62C17154E290055296D /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376E62817154E280055296D /* libTestFlight.a */; };
 		7376E62D17154E290055296D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7376E62917154E290055296D /* README.md */; };
 		7376E62E17154E290055296D /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 7376E62A17154E290055296D /* release_notes.md */; };
+		7376E6301715509B0055296D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376E62F1715509B0055296D /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		7376E62917154E290055296D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		7376E62A17154E290055296D /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
 		7376E62B17154E290055296D /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		7376E62F1715509B0055296D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7376E631171551730055296D /* product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = product.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7376E6301715509B0055296D /* libz.dylib in Frameworks */,
 				7376E624171538660055296D /* libWaterDropKit.a in Frameworks */,
 				7376E4511714FFF00055296D /* UIKit.framework in Frameworks */,
 				7376E4531714FFF00055296D /* Foundation.framework in Frameworks */,
@@ -99,6 +103,7 @@
 		7376E44F1714FFF00055296D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7376E62F1715509B0055296D /* libz.dylib */,
 				7376E4501714FFF00055296D /* UIKit.framework */,
 				7376E4521714FFF00055296D /* Foundation.framework */,
 				7376E4541714FFF00055296D /* CoreGraphics.framework */,
@@ -115,6 +120,7 @@
 				7376E62617154DE60055296D /* ThirdParty */,
 				7376E4571714FFF00055296D /* Supporting Files */,
 				7376E46D171500B50055296D /* AppConstants.h */,
+				7376E631171551730055296D /* product.h */,
 				7376E46E171500B50055296D /* AppConstants.m */,
 			);
 			path = Easytrip;
