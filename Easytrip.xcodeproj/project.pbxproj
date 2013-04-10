@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7376E4511714FFF00055296D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376E4501714FFF00055296D /* UIKit.framework */; };
+		7376E4531714FFF00055296D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376E4521714FFF00055296D /* Foundation.framework */; };
+		7376E4551714FFF00055296D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376E4541714FFF00055296D /* CoreGraphics.framework */; };
+		7376E45B1714FFF00055296D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7376E4591714FFF00055296D /* InfoPlist.strings */; };
+		7376E45D1714FFF00055296D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7376E45C1714FFF00055296D /* main.m */; };
+		7376E4611714FFF00055296D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7376E4601714FFF00055296D /* AppDelegate.m */; };
+		7376E4631714FFF00055296D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7376E4621714FFF00055296D /* Default.png */; };
+		7376E4651714FFF00055296D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7376E4641714FFF00055296D /* Default@2x.png */; };
+		7376E4671714FFF00055296D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7376E4661714FFF00055296D /* Default-568h@2x.png */; };
+		7376E46F171500B50055296D /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7376E46E171500B50055296D /* AppConstants.m */; };
+		7376E624171538660055296D /* libWaterDropKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376E621171538490055296D /* libWaterDropKit.a */; };
+		7376E62C17154E290055296D /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376E62817154E280055296D /* libTestFlight.a */; };
+		7376E62D17154E290055296D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7376E62917154E290055296D /* README.md */; };
+		7376E62E17154E290055296D /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 7376E62A17154E290055296D /* release_notes.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7376E620171538490055296D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7376E619171538490055296D /* WaterDropKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7376E481171508C10055296D;
+			remoteInfo = WaterDropKit;
+		};
+		7376E622171538620055296D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7376E619171538490055296D /* WaterDropKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7376E480171508C10055296D;
+			remoteInfo = WaterDropKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7376E44C1714FFF00055296D /* Easytrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easytrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7376E4501714FFF00055296D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7376E4521714FFF00055296D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7376E4541714FFF00055296D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7376E4581714FFF00055296D /* Easytrip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Easytrip-Info.plist"; sourceTree = "<group>"; };
+		7376E45A1714FFF00055296D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7376E45C1714FFF00055296D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7376E45E1714FFF00055296D /* Easytrip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Easytrip-Prefix.pch"; sourceTree = "<group>"; };
+		7376E45F1714FFF00055296D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7376E4601714FFF00055296D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7376E4621714FFF00055296D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7376E4641714FFF00055296D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7376E4661714FFF00055296D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7376E46D171500B50055296D /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		7376E46E171500B50055296D /* AppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
+		7376E619171538490055296D /* WaterDropKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WaterDropKit.xcodeproj; path = ../../WaterDropKit/WaterDropKit.xcodeproj; sourceTree = "<group>"; };
+		7376E62817154E280055296D /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		7376E62917154E290055296D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7376E62A17154E290055296D /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		7376E62B17154E290055296D /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7376E4491714FFF00055296D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7376E624171538660055296D /* libWaterDropKit.a in Frameworks */,
+				7376E4511714FFF00055296D /* UIKit.framework in Frameworks */,
+				7376E4531714FFF00055296D /* Foundation.framework in Frameworks */,
+				7376E4551714FFF00055296D /* CoreGraphics.framework in Frameworks */,
+				7376E62C17154E290055296D /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7376E4411714FFF00055296D = {
+			isa = PBXGroup;
+			children = (
+				7376E4561714FFF00055296D /* Easytrip */,
+				7376E44F1714FFF00055296D /* Frameworks */,
+				7376E44D1714FFF00055296D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7376E44D1714FFF00055296D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7376E44C1714FFF00055296D /* Easytrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7376E44F1714FFF00055296D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7376E4501714FFF00055296D /* UIKit.framework */,
+				7376E4521714FFF00055296D /* Foundation.framework */,
+				7376E4541714FFF00055296D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7376E4561714FFF00055296D /* Easytrip */ = {
+			isa = PBXGroup;
+			children = (
+				7376E618171538380055296D /* Dependencies */,
+				7376E45F1714FFF00055296D /* AppDelegate.h */,
+				7376E4601714FFF00055296D /* AppDelegate.m */,
+				7376E62617154DE60055296D /* ThirdParty */,
+				7376E4571714FFF00055296D /* Supporting Files */,
+				7376E46D171500B50055296D /* AppConstants.h */,
+				7376E46E171500B50055296D /* AppConstants.m */,
+			);
+			path = Easytrip;
+			sourceTree = "<group>";
+		};
+		7376E4571714FFF00055296D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7376E4581714FFF00055296D /* Easytrip-Info.plist */,
+				7376E4591714FFF00055296D /* InfoPlist.strings */,
+				7376E45C1714FFF00055296D /* main.m */,
+				7376E45E1714FFF00055296D /* Easytrip-Prefix.pch */,
+				7376E4621714FFF00055296D /* Default.png */,
+				7376E4641714FFF00055296D /* Default@2x.png */,
+				7376E4661714FFF00055296D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7376E618171538380055296D /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				7376E619171538490055296D /* WaterDropKit.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		7376E61A171538490055296D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7376E621171538490055296D /* libWaterDropKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7376E62617154DE60055296D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7376E62717154E280055296D /* TestFlight */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		7376E62717154E280055296D /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				7376E62817154E280055296D /* libTestFlight.a */,
+				7376E62917154E290055296D /* README.md */,
+				7376E62A17154E290055296D /* release_notes.md */,
+				7376E62B17154E290055296D /* TestFlight.h */,
+			);
+			path = TestFlight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7376E44B1714FFF00055296D /* Easytrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7376E46A1714FFF00055296D /* Build configuration list for PBXNativeTarget "Easytrip" */;
+			buildPhases = (
+				7376E4481714FFF00055296D /* Sources */,
+				7376E4491714FFF00055296D /* Frameworks */,
+				7376E44A1714FFF00055296D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7376E623171538620055296D /* PBXTargetDependency */,
+			);
+			name = Easytrip;
+			productName = Easytrip;
+			productReference = 7376E44C1714FFF00055296D /* Easytrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7376E4431714FFF00055296D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "WaterDrop Studio";
+			};
+			buildConfigurationList = 7376E4461714FFF00055296D /* Build configuration list for PBXProject "Easytrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7376E4411714FFF00055296D;
+			productRefGroup = 7376E44D1714FFF00055296D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7376E61A171538490055296D /* Products */;
+					ProjectRef = 7376E619171538490055296D /* WaterDropKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7376E44B1714FFF00055296D /* Easytrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7376E621171538490055296D /* libWaterDropKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libWaterDropKit.a;
+			remoteRef = 7376E620171538490055296D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7376E44A1714FFF00055296D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7376E45B1714FFF00055296D /* InfoPlist.strings in Resources */,
+				7376E4631714FFF00055296D /* Default.png in Resources */,
+				7376E4651714FFF00055296D /* Default@2x.png in Resources */,
+				7376E4671714FFF00055296D /* Default-568h@2x.png in Resources */,
+				7376E62D17154E290055296D /* README.md in Resources */,
+				7376E62E17154E290055296D /* release_notes.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7376E4481714FFF00055296D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7376E45D1714FFF00055296D /* main.m in Sources */,
+				7376E4611714FFF00055296D /* AppDelegate.m in Sources */,
+				7376E46F171500B50055296D /* AppConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7376E623171538620055296D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WaterDropKit;
+			targetProxy = 7376E622171538620055296D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7376E4591714FFF00055296D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7376E45A1714FFF00055296D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7376E4681714FFF00055296D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7376E4691714FFF00055296D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7376E46B1714FFF00055296D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easytrip/Easytrip-Prefix.pch";
+				INFOPLIST_FILE = "Easytrip/Easytrip-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Easytrip/ThirdParty/TestFlight\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7376E46C1714FFF00055296D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easytrip/Easytrip-Prefix.pch";
+				INFOPLIST_FILE = "Easytrip/Easytrip-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Easytrip/ThirdParty/TestFlight\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7376E4461714FFF00055296D /* Build configuration list for PBXProject "Easytrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7376E4681714FFF00055296D /* Debug */,
+				7376E4691714FFF00055296D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7376E46A1714FFF00055296D /* Build configuration list for PBXNativeTarget "Easytrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7376E46B1714FFF00055296D /* Debug */,
+				7376E46C1714FFF00055296D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7376E4431714FFF00055296D /* Project object */;
+}
